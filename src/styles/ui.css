@@ -3,7 +3,7 @@
   position: fixed;
   inset: 0;
   background-color: #323033;
-  background-image: url("./img/marble-texture.jpg");
+  background-image: url("/img/marble-texture.jpg");
   background-size: cover;
   opacity: 1;
   z-index: 1;
