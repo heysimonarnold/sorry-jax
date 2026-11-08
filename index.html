@@ -1,0 +1,100 @@
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+
+    <!-- Primary metadata -->
+    <title>Sorry Jax</title>
+    <meta
+      name="description"
+      content="Sorry Jax est un exutoire de frustration inspiré par Mortal Kombat II."
+    />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://heysimonarnold.github.io/sorry-jax/" />
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sorry Jax" />
+    <meta property="og:title" content="Sorry Jax" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta
+      property="og:description"
+      content="Sorry Jax est un exutoire de frustration inspiré par Mortal Kombat II."
+    />
+    <meta
+      property="og:url"
+      content="https://heysimonarnold.github.io/sorry-jax/"
+    />
+    <meta
+      property="og:image"
+      content="https://heysimonarnold.github.io/sorry-jax/og-image.png"
+    />
+    <meta
+      property="og:image:alt"
+      content="Sorry Jax est un exutoire de frustration inspiré par Mortal Kombat II."
+    />
+  </head>
+  <body>
+    <div class="instructions">
+      <img src="./img/mobile-instructions.jpg" class="mobile" />
+      <img src="./img/desktop-instructions.jpg" class="desktop" />
+    </div>
+
+    <div class="scene">
+      <div class="scoreboard">
+        <div class="player no1">
+          <div class="text">
+            <span class="wins">00</span>
+            wins
+          </div>
+
+          <div class="meter">
+            <div class="meter__progress"></div>
+            <span class="meter__name">Scorpion</span>
+          </div>
+
+          <div class="round-wons">
+            <img
+              src="./img/round-token.png"
+              class="round-wons__token round-wons__token--1"
+            />
+            <img
+              src="./img/round-token.png"
+              class="round-wons__token round-wons__token--2"
+            />
+          </div>
+        </div>
+
+        <div class="timer">99</div>
+
+        <div class="player no2">
+          <div class="text">Push start</div>
+          <div class="meter">
+            <div class="meter__progress"></div>
+            <span class="meter__name">Jax</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="msg">
+        <div class="round-1">Round 1</div>
+        <div class="round-2">Round 2</div>
+        <div class="fight big">Fight</div>
+        <div class="finish-him big">Finish him!!</div>
+        <div class="scorpion-wins">Scorpion wins</div>
+      </div>
+
+      <div class="character scorpion"></div>
+      <div class="character jax"></div>
+      <div class="dan-forden"></div>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
