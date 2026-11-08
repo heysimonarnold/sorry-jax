@@ -4,7 +4,7 @@
   right: 0;
   width: 23vmin;
   height: 23vmin;
-  background-image: url("./img/dan-forden.webp");
+  background-image: url("/img/dan-forden.webp");
   background-size: contain;
   transform: translateX(101%);
   z-index: 2;

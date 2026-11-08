@@ -2,7 +2,7 @@
   left: 50%;
   height: var(--scorpion-height);
   aspect-ratio: 18 / 25;
-  background-image: url("./img/scorpion-spritesheet.webp");
+  background-image: url("/img/scorpion-spritesheet.webp");
   transform: translateX(-50%);
   animation: idle 0.8s steps(6) infinite;
   z-index: 1;

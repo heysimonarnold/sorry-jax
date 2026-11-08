@@ -2,7 +2,7 @@
   left: 50%;
   width: 57vmin;
   aspect-ratio: 1 / 1;
-  background-image: url("./img/jax-sprite-sheet.webp");
+  background-image: url("/img/jax-sprite-sheet.webp");
   transform: translateX(20%);
   animation: stunned 0.8s steps(4) infinite;
   transition: opacity 0.4s;
