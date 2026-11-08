@@ -4,4 +4,4 @@
 
 Url: [https://heysimonarnold.github.io/sorry-jax/](https://heysimonarnold.github.io/sorry-jax/)
 
-Sorry Jax est un exutoire de frustration inspiré par Mortal Kombat II.
+Sorry Jax est un exutoire de frustrations inspiré par Mortal Kombat II.
